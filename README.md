@@ -14,3 +14,7 @@
 
 - Bot behavior is controlled by `src/main/java/rlbotexample/ScimecaBot.java`
 
+Note: In the event of an event run loop error make sure websockets 12 is installed:
+
+
+pip install websockets==12
