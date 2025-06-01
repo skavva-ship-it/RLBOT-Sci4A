@@ -1,0 +1,96 @@
+
+=== Post Game Stats ===
+Match End Time: Sun Jun 01 16:08:23 EDT 2025
+Blue Team:
+  Goals: 0
+  Assists: 0
+  Saves: 0
+  Shots: 0
+  Demolitions: 0
+Orange Team:
+  Goals: 0
+  Assists: 0
+  Saves: 0
+  Shots: 0
+  Demolitions: 0
+Total Inputs Processed: 1
+
+=== Post Game Stats ===
+Match End Time: Sun Jun 01 16:08:23 EDT 2025
+Blue Team:
+  Goals: 0
+  Assists: 0
+  Saves: 0
+  Shots: 0
+  Demolitions: 0
+Orange Team:
+  Goals: 0
+  Assists: 0
+  Saves: 0
+  Shots: 0
+  Demolitions: 0
+Total Inputs Processed: 1
+
+=== Post Game Stats ===
+Match End Time: Sun Jun 01 16:12:33 EDT 2025
+Blue Team:
+  Goals: 1
+  Assists: 0
+  Saves: 0
+  Shots: 1
+  Demolitions: 0
+Orange Team:
+  Goals: 0
+  Assists: 0
+  Saves: 0
+  Shots: 0
+  Demolitions: 0
+Total Inputs Processed: 96
+
+=== Post Game Stats ===
+Match End Time: Sun Jun 01 16:12:33 EDT 2025
+Blue Team:
+  Goals: 1
+  Assists: 0
+  Saves: 0
+  Shots: 1
+  Demolitions: 0
+Orange Team:
+  Goals: 0
+  Assists: 0
+  Saves: 0
+  Shots: 0
+  Demolitions: 0
+Total Inputs Processed: 96
+
+=== Post Game Stats ===
+Match End Time: Sun Jun 01 16:20:15 EDT 2025
+Blue Team:
+  Goals: 1
+  Assists: 0
+  Saves: 0
+  Shots: 0
+  Demolitions: 0
+Orange Team:
+  Goals: 0
+  Assists: 0
+  Saves: 0
+  Shots: 0
+  Demolitions: 1
+Total Inputs Processed: 4172
+
+=== Post Game Stats ===
+Match End Time: Sun Jun 01 16:20:15 EDT 2025
+Blue Team:
+  Goals: 1
+  Assists: 0
+  Saves: 0
+  Shots: 0
+  Demolitions: 0
+Orange Team:
+  Goals: 0
+  Assists: 0
+  Saves: 0
+  Shots: 0
+  Demolitions: 1
+Total Inputs Processed: 4172

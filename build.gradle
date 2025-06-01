@@ -1,0 +1,54 @@
+// This file controls gradle, which we are using to install and update the RLBot framework used by this example bot,
+// and also compile and run the java code used by this bot.
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'rlbotexample.JavaExample'
+
+// This directory will be created and the interface dll copied into it at runtime.
+// The end result is that the interface dll will be available for loading.
+def dllDirectory = 'build/dll'
+applicationDefaultJvmArgs = ["-Djna.library.path=" + dllDirectory]
+
+dependencies {
+    // Fetch the framework jar file
+    compile 'org.rlbot.commons:framework:2.+'
+
+    // This is makes it easy to find the dll when running in intellij, where JVM args don't get passed from gradle.
+    runtime files(dllDirectory)
+}
+
+
+task createDllDirectory {
+    mkdir dllDirectory
+}
+
+run.dependsOn createDllDirectory
+
+applicationDistribution.exclude(dllDirectory)
+
+// You can run gradew.bat distZip to generate a zip file suitable for tournament submissions.
+// It will be generated in build/distributions
+distZip {
+    into ('python') {
+        from fileTree('src/main/python') {
+            exclude '__pycache__'
+        }
+    }
+}
+
+// This is the same as distZip, but not zipped. Handy for testing your tournament submission more rapidly.
+installDist {
+    into ('../python') {
+        from fileTree('src/main/python') {
+            exclude '__pycache__'
+        }
+    }
+}
