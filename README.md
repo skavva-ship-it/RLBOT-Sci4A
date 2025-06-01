@@ -12,7 +12,7 @@
 1. Terminate use cmd+c when game finishes
 1. StatsFiles Will be Shown in root of src directory
 
-- Bot behavior is controlled by `src/main/java/rlbotexample/ScimecaBot.java`
+- Bot behavior & Actual Project is in `src/main/java/rlbotexample/ScimecaBot.java`
 
 Note: In the event of an event run loop error make sure websockets 12 is installed:
 
